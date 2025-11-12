@@ -8,13 +8,13 @@
 //   return [value];
 // };
 
-const createArrrayWithGeneric = <T>(value: T) => {
+const createArrayWithGeneric = <T>(value: T) => {
   return [value];
 };
 
-const arrString = createArrrayWithGeneric("Apple");
-const arrNum = createArrrayWithGeneric(222);
-const arrObj = createArrrayWithGeneric({
+const arrString = createArrayWithGeneric("Apple");
+const arrNum = createArrayWithGeneric(222);
+const arrObj = createArrayWithGeneric({
   id: 123,
   name: "Next Level",
 });

@@ -47,7 +47,7 @@ const user2: User= {
 type IsAdmin = true;
 const isAdmin: IsAdmin = true;
 
-type Name = string
+type Name = string 
 
 const myName : Name = 'stdsfsd'
 

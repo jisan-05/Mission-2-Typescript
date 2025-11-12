@@ -1,4 +1,4 @@
-// union  |
+// union  
 
 type UserRole = "admin" | 'user' 
 
