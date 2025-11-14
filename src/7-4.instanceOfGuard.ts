@@ -44,7 +44,7 @@ const isStudent = (user: Person) =>{
 
 const isTeacher = (user:Person) =>{
   return user instanceof Teacher; //  user is Teacher
-}
+}   
 
 
 // const getUserInfo = (user:Person) =>{
@@ -65,9 +65,9 @@ const getUserInfo = (user:Person) =>{
       user.getSleep(12)
     }
 }
-
+ 
 const student1 = new Student("Mr. student")
 const teacher1 = new Teacher('Mr. Teacher')
 const person1 = new Person('Mr. Person')
 
-getUserInfo(person1)
+getUserInfo(student1)
